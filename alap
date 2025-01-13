@@ -33,9 +33,9 @@ ip ftp username 1234
 ip ftp password 1234
 
 int vlan 1
-ip address 192.168.0.2 255.255.255.0
+ip address 192.168.1.2 255.255.255.0
 no sh
-ip default-gate 192.168.0.1
+ip default-gate 192.168.1.1
 end
 
 configure terminal
